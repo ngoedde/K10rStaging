@@ -1,16 +1,20 @@
 {
   "name": "k10r/staging",
-  "type": "shopware-core-plugin",
-  "description": "Shopware-Staging Env for k10r-Projects",
-  "license": "MIT",
+  "type": "shopware-plugin",
+  "description": "Helper plugin for staging/pre-live environments",
+  "license": "Commercial",
   "authors": [
     {
-      "name": "Siegmund Mioduszewski",
-      "email": "s.mioduszewski@k10r.de"
+      "name": "Kellerkinder GmbH",
+      "email": "anfragen@kellerkinder.de"
     }
   ],
   "require": {
-    "composer/installers": "~1.0"
+    "composer/installers": "^1.5"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "k10r/codestyle": "^1.0"
   },
   "extra": {
     "installer-name": "K10rStaging"

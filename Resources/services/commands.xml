@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="k10r_staging.commands.import_dump" class="K10rStaging\Commands\ImportDump">
+            <tag name="console.command" command="k10r:import-dump"/>
+        </service>
+    </services>
+</container>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Staging-Umgebung</label>
+    <label lang="en">Staging-Env</label>
+
+    <version>1.0.0</version>
+    <link>https://www.kellerkinder.de</link>
+    <author>Kellerkinder GmbH</author>
+    <compatibility minVersion="5.2.0" />
+
+    <description lang="de"><![CDATA[
+    Hilfsplugin für Staging / Pre-Live-Umgebungen
+    Verwendet MailTrap.io, um alle ausgehenden E-Mails einer Shopware-Instanz abzufangen.
+    ]]></description>
+    <description lang="en"><![CDATA[
+    Helper plugin for staging/pre-live environments
+    Uses MailTrap.io to catch all outgoing e-mails of a shopware instance
+    ]]></description>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Veröffentlichung</changes>
+        <changes lang="en">Release</changes>
+    </changelog>
+</plugin>

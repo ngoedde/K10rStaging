@@ -1,3 +1,0 @@
-Helperplugin for staging/pre-live environments
-
-Uses MailTrap.io to catch all outgoing e-mails of a shopware instance

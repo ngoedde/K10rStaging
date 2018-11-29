@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="k10r_staging.subscribers.mail" class="K10rStaging\Subscribers\Mail">
+            <argument type="service" id="k10r_staging.services.config"/>
+            <tag name="shopware.event_subscriber"/>
+        </service>
+
+        <service id="k10r_staging.subscribers.template" class="K10rStaging\Subscribers\Template">
+            <argument type="service" id="k10r_staging.services.config"/>
+            <argument type="service" id="template"/>
+            <argument>%k10r_staging.plugin_dir%</argument>
+            <tag name="shopware.event_subscriber"/>
+        </service>
+    </services>
+</container>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="text" scope="shop">
+            <name>mailtrapUsername</name>
+            <label lang="en">Mailtrap username</label>
+            <label lang="de">Mailtrap Benutzername</label>
+        </element>
+        <element type="text" scope="shop">
+            <name>mailtrapPassword</name>
+            <label lang="en">Mailtrap password</label>
+            <label lang="de">Mailtrap Passwort</label>
+        </element>
+        <element type="boolean" scope="shop">
+            <name>stagingNotice</name>
+            <label lang="en">Show staging notice in frontend</label>
+            <label lang="de">Staging-Hinweis im Frontend anzeigen</label>
+        </element>
+        <element type="boolean" scope="shop">
+            <name>importDump</name>
+            <label lang="en">Import dump during the next deployment</label>
+            <label lang="de">Beim nächsten Deployment Dump einspielen</label>
+        </element>
+        <element type="text" scope="shop">
+            <name>dumpUrl</name>
+            <label lang="en">SQL Dump-URL</label>
+            <label lang="de">SQL Dump-URL</label>
+        </element>
+    </elements>
+</config>
